@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "cmptodoapp",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognito7d732b87",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

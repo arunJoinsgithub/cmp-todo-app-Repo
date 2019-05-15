@@ -1,0 +1,19 @@
+{
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "cmp-todo-demo-test-20190515155313-authRole",
+            "UnauthRoleArn": "arn:aws:iam::711922954182:role/cmp-todo-demo-test-20190515155313-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::711922954182:role/cmp-todo-demo-test-20190515155313-authRole",
+            "Region": "us-west-2",
+            "DeploymentBucketName": "cmp-todo-demo-test-20190515155313-deployment",
+            "UnauthRoleName": "cmp-todo-demo-test-20190515155313-unauthRole",
+            "StackName": "cmp-todo-demo-test-20190515155313",
+            "StackId": "arn:aws:cloudformation:us-west-2:711922954182:stack/cmp-todo-demo-test-20190515155313/72c4f4d0-76fb-11e9-a282-0254f5c7f298"
+        },
+        "categories": {
+            "auth": {
+                "cognito7d732b87": {}
+            }
+        }
+    }
+}

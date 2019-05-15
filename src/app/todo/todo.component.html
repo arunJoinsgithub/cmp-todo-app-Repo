@@ -1,0 +1,19 @@
+<h1>this is todo</h1>
+
+<div style="text-align:center">
+
+  <input type="text" #todoName>
+
+  <button (click)="createTodo(todoName)">Create Todo</button>
+
+
+
+  <div *ngFor="let todo of allTodos">
+
+    <hr>
+
+    <p> Title: {{todo.name}}</p>
+
+  </div>
+
+</div>
